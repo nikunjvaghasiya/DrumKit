@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drum Kit</title>
+    <link rel="stylesheet" href="drumkit.css">
+</head>
+
+<body>
+    <div class="drum">
+        <div class="key" data-key="65">
+            <kbd>A</kbd><br>
+            <span class="sound">Boom</span>
+        </div>
+        <div class="key" data-key="83">
+            <kbd>S</kbd><br>
+            <span class="sound">Clap</span>
+        </div>
+        <div class="key" data-key="68">
+            <kbd>D</kbd><br>
+            <span class="sound">Hihat</span>
+        </div>
+        <div class="key" data-key="70">
+            <kbd>F</kbd><br>
+            <span class="sound">Kick</span>
+        </div>
+        <div class="key" data-key="71">
+            <kbd>G</kbd><br>
+            <span class="sound">Openhat</span>
+        </div>
+        <div class="key" data-key="72">
+            <kbd>H</kbd><br>
+            <span class="sound">Ride</span>
+        </div>
+        <div class="key" data-key="74">
+            <kbd>J</kbd><br>
+            <span class="sound">Snare</span>
+        </div>
+        <div class="key" data-key="75">
+            <kbd>K</kbd><br>
+            <span class="sound">Tink</span>
+        </div>
+        <div class="key" data-key="76">
+            <kbd>L</kbd><br>
+            <span class="sound">Tom</span>
+        </div>
+    </div>
+
+    <audio data-key="65" src="Sounds\Boom.wav"></audio>
+    <audio data-key="83" src="Sounds\Clap.wav"></audio>
+    <audio data-key="68" src="Sounds\Hihat.wav"></audio>
+    <audio data-key="70" src="Sounds\Kick.wav"></audio>
+    <audio data-key="71" src="Sounds\Openhat.wav"></audio>
+    <audio data-key="72" src="Sounds\Ride.wav"></audio>
+    <audio data-key="74" src="Sounds\Snare.wav"></audio>
+    <audio data-key="75" src="Sounds\Tink.wav"></audio>
+    <audio data-key="76" src="Sounds\Tom.wav"></audio>
+
+    <script src="drumkit.js"></script>
+</body>
+
+</html>

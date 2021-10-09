@@ -1,0 +1,30 @@
+
+        body {
+            background-image: url('https://source.unsplash.com/user/erondu/1600x900');
+
+        }
+
+        .drum {
+            display: flex;
+            justify-content: center;
+            padding: 230px;
+        }
+
+        div.key {
+            height: 50px;
+            width: 60px;
+            text-align: center;
+            padding: 3px;
+            margin: 10px;
+            border: 2px solid black;
+            color: white;
+            background: rgba(0, 0, 0, 0.4);
+            font-weight: bolder;
+            transition: all 0.07s;
+        }
+
+        .playing {
+            transform: scale(1.1);
+            border-color: #ffc600;
+            box-shadow: 0 0 1rem #ffc600;
+        }
